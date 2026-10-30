@@ -64,5 +64,109 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-HAPI FHIR is a company surfaced via the API Evangelist harvest backlog (source: tag-qc) and added to the network as a stub for full-pipeline profiling.
-- https://hapifhir.io
+HAPI FHIR provides an open-source implementation of the HL7 FHIR (Fast Healthcare Interoperability Resources) standard for Java. It enables developers to quickly build and deploy FHIR‑based clinical data repositories, offering RESTful APIs, a powerful server framework, and extensive tooling for validation, searching, and transaction processing. The project powers numerous health‑IT solutions and is maintained by the community and Smile CDR, delivering a robust, scalable platform for interoperable healthcare data exchange.
+
+**Areas:** Healthcare · Interoperability · Open Source · Java · FHIR
+
+## HAPI FHIR on APIs.io
+
+Everything profiled for HAPI FHIR is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/hapi-fhir/](https://apis.io/providers/hapi-fhir/)** — or go straight to one of the APIs or properties below.
+
+### APIs (2)
+
+- [HAPI FHIR Fhir API](https://apis.io/apis/hapi-fhir/hapi-fhir-fhir-api/) — The Fhir API from HAPI FHIR — 1 operation(s) for fhir.
+- [HAPI FHIR Patient API](https://apis.io/apis/hapi-fhir/hapi-fhir-patient-api/) — The Patient API from HAPI FHIR — 2 operation(s) for patient.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### JSON Schema (3)
+
+The data models the API reads and writes.
+
+- [PostPatientRequest](https://apis.io/schemas/hapi-fhir/hapi-fhir-post-patient-request/)
+- [PostPatientResponse](https://apis.io/schemas/hapi-fhir/hapi-fhir-post-patient-response/)
+- [PutPatientPatientidRequest](https://apis.io/schemas/hapi-fhir/hapi-fhir-put-patient-patientid-request/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Hapi Fhir Context](https://apis.io/jsonld/hapi-fhir/hapi-fhir-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [HAPI FHIR API Rules](https://apis.io/rules/hapi-fhir/hapi-fhir-rules/)
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Hapi Fhir Domain Security](https://apis.io/security/hapi-fhir/hapi-fhir-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://hapifhir.io)
+- [Documentation](https://hapifhir.io/hapi-fhir/)
+- [Getting started](https://hapifhir.io/hapi-fhir/docs/getting_started/introduction.html)
+- [API reference](https://hapifhir.io/hapi-fhir/apidocs/hapi-fhir-base/)
+- [Support](https://smilecdr.com/)
+- [Blog](https://hapifhir.io/hapi-fhir/blog/)
+
+## API Evangelist rating
+
+**Kin Score 25.6** — emerging · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 66.1 |
+| Contract quality | 19.4 |
+| Contract governance | 22.0 |
+| Operational transparency | 21.1 |
+| Developer ergonomics | 50.0 |
+| Access clarity | 0.0 |
+
+**Agent readiness 12.9** — agent-aware
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 8.6** — Health
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/hapi-fhir/](https://apis.io/providers/hapi-fhir/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for HAPI FHIR: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/hapi-fhir/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
